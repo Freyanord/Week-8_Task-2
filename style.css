@@ -1,0 +1,9 @@
+.logo {
+    color: black;/*разобраться с картинкой*/
+}
+.nav-item {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+}
