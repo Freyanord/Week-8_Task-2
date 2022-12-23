@@ -7,3 +7,27 @@
     font-weight: bold;
     font-size: 18px;
 }
+.container_header {
+    min-width: 70%;
+    max-height: 120px;
+}
+.container {
+    min-width: 40%;
+    margin: auto;
+}
+
+.row-flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+.first {
+    min-width: 40%;
+}
+.background-image {
+    display: block;
+    width: 100%;
+}
+.text {
+    font-size: 18px;
+    padding-top: 30px;
+}
