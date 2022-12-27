@@ -1,5 +1,5 @@
 .logo {
-    color: black;/*разобраться с картинкой*/
+    /*логотип не отражается*/
 }
 .nav-item {
     text-transform: uppercase;
@@ -16,18 +16,51 @@
     margin: auto;
 }
 
+.first {
+    min-width: 40%;
+    max-height: 35%;
+}
+
 .row-flex {
     display: flex;
     flex-flow: row wrap;
+    max-height: 800px;
 }
-.first {
-    min-width: 40%;
-}
-.background-image {
-    display: block;
-    width: 100%;
+
+.background {
+    background: url(images/block1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto; /*никак не получается сделать картинку меньше по высоте*/
+    position: relative;
 }
 .text {
     font-size: 18px;
     padding-top: 30px;
+} 
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    color: white;
+    text-align: center;
 }
+
+.btn { /*кнопка должна быть на картинке*/
+    border-radius: 30px;
+    position: absolute;
+}
+
+.link-text {
+    font-size: 17px;
+    line-height: 30px;
+    color: #8D4FDB;
+}
+
+    
+
