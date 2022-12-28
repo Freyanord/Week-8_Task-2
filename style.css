@@ -1,4 +1,6 @@
 .logo {
+    min-height: 50px;
+    color: black;
     /*логотип не отражается*/
 }
 .nav-item {
@@ -16,25 +18,33 @@
     margin: auto;
 }
 
-.first {
+.block {
     min-width: 40%;
     max-height: 35%;
+    margin-bottom: 35px;
 }
 
-.row-flex {
-    display: flex;
-    flex-flow: row wrap;
-    max-height: 800px;
+.h-510 {
+    max-height: 510px;
 }
 
-.background {
-    background: url(images/block1.png);
-    background-size: contain;
+.h-330 {
+    max-height: 330px;
+}
+
+.h-180 {
+    max-height: 180px;
+}
+
+.background-image {
+    background-image: url(images/block1.png);
     background-repeat: no-repeat;
-    background-position: center;
-    height: auto; /*никак не получается сделать картинку меньше по высоте*/
-    position: relative;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    position: relative; /*не растягивается в высоту*/
 }
+
 .text {
     font-size: 18px;
     padding-top: 30px;
@@ -51,9 +61,11 @@ h2 {
     text-align: center;
 }
 
-.btn { /*кнопка должна быть на картинке*/
+.btn_block { 
     border-radius: 30px;
+    border: none;
     position: absolute;
+    margin-left: 93%;
 }
 
 .link-text {
@@ -62,5 +74,52 @@ h2 {
     color: #8D4FDB;
 }
 
-    
+.background-image_1 {
+    background-image: url(images/block2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    position: relative; /*не растягивается в высоту*/
+}
 
+.background-image_2 {
+    background-image: url(images/block3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    position: relative; /*не растягивается в высоту*/
+}
+.block-search {
+    min-width: 40%;
+    max-height: 50%;
+    margin-bottom: 35px;
+    background-color: #F1F1F1;;
+} 
+
+h3 {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    color: black;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.btn-lg {
+    border-radius: 25px;
+    border: none;
+    background-color: #8D4FDB;
+    color: white;
+    width: 190px;
+    font-weight: lighter;
+    align-self: center;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    
+}
