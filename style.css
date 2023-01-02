@@ -1,7 +1,8 @@
+
 .logo {
     min-height: 50px;
-    color: black;
-    /*логотип не отражается*/
+    margin-left: 45%;
+    background-color: lightgray;
 }
 .nav-item {
     text-transform: uppercase;
@@ -11,7 +12,8 @@
 }
 .container_header {
     min-width: 70%;
-    max-height: 120px;
+    max-height: 130px;
+    
 }
 .container {
     min-width: 40%;
@@ -120,6 +122,17 @@ h3 {
     font-weight: lighter;
     align-self: center;
     margin-left: 40%;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px; 
+}
+.footer {
+    max-width: 58.5%;
+    max-height: 50%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.h-100 {
+    max-height: 100px;
 }
